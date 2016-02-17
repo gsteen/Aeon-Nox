@@ -95,6 +95,7 @@
 			<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(episodes)</visible>
 			<animation effect="slide" end="0,0" start="0,-540" time="200" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,-540" time="200" tween="quadratic" easing="out">WindowClose</animation>
+			<animation effect="slide" end="0,140" time="200" tween="quadratic" easing="out" condition="Skin.HasSetting(Cinemascope)">conditional</animation>
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
